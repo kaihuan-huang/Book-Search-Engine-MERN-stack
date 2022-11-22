@@ -1,6 +1,6 @@
 //Implement the Apollo Server and apply it to the Express server as middleware.
 const { ApolloServer } = require("apollo-server-express");
-const { typeDefs, resolvers } = require("./schemas");
+const { typeDefs, resolvers } = require("./Schema");
 // Update the auth middleware function to work with the GraphQL API.
 const { authMiddleware } = require('./utils/auth');
 const express = require('express');
